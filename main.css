@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/*Default settings*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul > li{
+	list-style: none;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*Header*/
+.header__nav__ul{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+
+.header__nav__ul li{
+	padding: 30px 20px;
+
+	text-transform: capitalize;
+}
+
+.header__nav__ul li:last-child{
+	text-transform: uppercase;
+}
+
+.header__nav__ul li:hover{
+	background-color: #1ea391;
+}
+
+.header__nav__ul li a{
+	color: #000;
+}
+
+.header__nav__ul li:hover a{
+	color: #fff;
+}
+
+/*Section Ana & David*/
+
+.aad{
+	height: 880px;
+
+	background-color: #534646;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.aad__aside{
+	height: 380px;
+	width: 95px;
+
+	background-color: #05a893;
+
+	border-top-right-radius: 33px;
+	border-bottom-right-radius: 33px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: space-evenly;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.aad__buttons{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.aad__buttons__leftside, .aad__buttons__rightside{
+	height: 85px;
+	width: 110px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.aad__buttons__leftside > img, .aad__buttons__rightside > img{
+	display: block;
+}
+
+.aad__buttons__leftside{
+	background-color: #05a893;
+	border-top-left-radius: 33px;
+}
+
+.aad__buttons__rightside{
+	background-color: #09e2a7;
+	border-top-right-radius: 33px;
+}
+
+.aad .aad__aside{
+	align-self: center;
+}
+
+.invite{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+
+.invite__data, .invite__time{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+}
+
+.invite__data > div > p, .invite__time > div > p{
+	text-align: center;
+}
+
+
+.invite__data{
+	background-color: #ededed;
+
+	height: 425px;
+	width: 665px;
+}
+
+.invite__time{
+	background-color: #05a893;
+
+	color: #fff;
+
+	height: 230px;
+	width: 665px;
+}
+
+.invite__data__nameawagm__name{
+	font-family: 'Playball', cursive;
+	font-size: 3em;
+	font-weight: 600;
+	color: #129f8b;
+
+	margin-bottom: 40px;
+}
+
+.invite__data__nameawagm__wagm{
+	margin: 0 auto;
+	font-size: 1.2em;
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 35px;
+	border-bottom: 1px solid #000;
+	width: 230px;
+}
+
+.invite__data__cpapalace{
+	margin-top: 30px;
+}
+
+.invite__data__cpapalace__cp{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.invite__data__cpapalace__palace{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+	color: #4a3c3c;
+
+	width: 260px;
+
+	margin-top: 30px;
+}
+
+.invite__time__bml{
+	font-family: 'Playball', cursive;
+	font-size: 2em;
+}
+
+.invite__time__dhms{
+	margin-top: 44px;
+
+	width: 385px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+
+	text-align: center;
+}
+
+.invite__time__dhms > div > p:first-child{
+	text-transform: uppercase;
+	font-size: 2.2em;
+}
+
+.invite__time__dhms > div > p:nth-child(2n){
+	text-transform: capitalize;
+	font-size: 1em;
+}
+
+/*Who We Are?*/
+
+.wwa{
+	background-image: url(img/deco.png);
+	background-repeat: no-repeat;
+	background-position: right;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	align-items: center;
+
+	margin-bottom: 200px;
+}
+
+.wwa__name{
+	height: 300px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+}
+
+
+.wwa__name__wwa{
+	font-family: 'Playball', cursive;
+	font-size: 2.2em;
+	color: #05a893;
+}
+
+.wwa__name__text{
+	width: 660px;
+
+	text-align: center;
+	font-size: 1.2em;
+	color: #7a7a7a;
+
+	margin-top: 36px;
+
+	line-height: 1.5;
+}
+
+
+.wwa__daa__david, .wwa__daa__ana{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.wwa__daa__david__leftside, .wwa__daa__david__rightside,
+.wwa__daa__ana__leftside, .wwa__daa__ana__rightside{
+	width: 585px;
+	height: 305px;
+}
+
+.wwa__daa__david__rightside, .wwa__daa__ana__leftside{
+	background-color: #6e6161;
+}
+
+.wwa__daa__david__leftside, .wwa__daa__ana__rightside{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	align-items:flex-start;
+}
+
+.wwa__daa__david__leftside__name,
+.wwa__daa__ana__rightside__name{
+	font-family: 'Playball', cursive;
+	font-size: 1.8em;
+	color:#05a893;
+}
+
+.wwa__daa__david__leftside__name__words,
+.wwa__daa__ana__rightside__name__words{
+	width: 475px;
+
+	color: #666666;
+
+	margin-top: 35px;
+	margin-bottom: 35px;
+
+	line-height: 1.5;
+
+}
+
+.wwa__daa__david__leftside__socialNetworks,
+.wwa__daa__ana__rightside__socialNetworks{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.wwa__daa__david__leftside__socialNetworks > li:not(:last-child),
+.wwa__daa__ana__rightside__socialNetworks > li:not(:last-child){
+	margin-right: 20px;
+}
+
+.wwa__daa__david__leftside__name, .wwa__daa__david__leftside__name__words,
+.wwa__daa__david__leftside__socialNetworks{
+	margin-left: 52px;
+}
+
+.wwa__daa__ana__rightside__name, .wwa__daa__ana__rightside__name__words,
+.wwa__daa__ana__rightside__socialNetworks{
+	margin-left: 42px;
+}
+
+/*Our Happy Moments*/
+
